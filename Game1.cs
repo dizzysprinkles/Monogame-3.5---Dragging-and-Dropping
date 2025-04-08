@@ -66,6 +66,7 @@ namespace Monogame_3._5___Dragging_and_Dropping
                 asteroidRect.Offset(currentMouseState.X - prevMouseState.X, currentMouseState.Y - prevMouseState.Y);
             }
 
+
             //Dragging Car - Horizontal only
             if (NewClick() && carRect.Contains(currentMouseState.Position))
             {
